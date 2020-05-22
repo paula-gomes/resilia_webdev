@@ -1,0 +1,64 @@
+
+.cabecalhoprincipal
+{
+    background-color:#000;
+    display:flex;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: flex-end;
+   
+
+}
+body
+{
+    background: #CCCCCC;
+}
+.menu
+{
+    justify-content: center;
+
+}
+.itens
+{
+    color: black;
+    background: yellow;
+    margin-left: 15px;
+    border-radius: 5px;
+    padding:5px;
+    font-family: Verdana;
+    
+}
+.nomesite
+{
+    color: yellow;
+    font-family: Verdana;
+
+}
+footer
+{
+    background: #000;
+    bottom: 0px;
+    width: 100%;
+    position:fixed;
+    text-align: center;
+
+}
+.iconesrodape li
+{
+   display:inline; 
+    
+}
+.redes
+{
+    width:30 px;
+    height:30px;
+    padding: 10px;
+    align-items:center;
+   
+}
+.cpyright
+{
+    color:yellow;
+    text-align:center;
+}
+
