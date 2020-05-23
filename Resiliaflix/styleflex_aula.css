@@ -1,7 +1,7 @@
 
 .cabecalhoprincipal
 {
-    background-color:#000;
+    background-color:#8DB1AB;
     display:flex;
     justify-content: space-around;
     padding: 15px;
@@ -15,33 +15,39 @@ body
 }
 .menu
 {
+    display:flex;
     justify-content: center;
 
 }
 .itens
 {
-    color: black;
-    background: yellow;
+    color: #FFE529;
+    background: #85A392;
     margin-left: 15px;
     border-radius: 5px;
     padding:5px;
-    font-family: Verdana;
+    font-family: helvetica;
+    font-weight: bold;
     
-}
-.nomesite
+}.nomesite
 {
-    color: yellow;
-    font-family: Verdana;
+    color: #FFE529;
+    font-family: helvetica;
+    font-weight: bold;  
+}
+.recomendacoes
+{
+    font-family: helvetica;
+    font-weight: bold;
+    color:rgb(68, 131, 190);
 
+    padding-top:20px;
 }
-footer
+footer /*Alteração- Adiçao de conteudo na main, logo não precisa estabelecer posição, tamanho, bottom etc no footer*/
 {
-    background: #000;
-    bottom: 0px;
-    width: 100%;
-    position:fixed;
+    background: #8DB1AB;
     text-align: center;
-
+    
 }
 .iconesrodape li
 {
@@ -58,7 +64,80 @@ footer
 }
 .cpyright
 {
-    color:yellow;
+    coloR: #FFE529;
     text-align:center;
 }
+
+.conteudo 
+{
+    display:flex;
+}
+.container
+{
+    width: 940px;
+	margin: 0 auto;
+
+}
+
+
+.capafilmes
+{
+    display:flex;
+    flex-wrap:wrap;
+    padding: 10px;
+    justify-content: space-around;
+    margin: auto;
+   
+ 
+}
+.capafilmes li
+{
+   padding:5px;
+      
+}
+.nomefilmes
+{
+    background: white;
+    border-radius: 25px;
+    padding:5px;
+}
+
+
+.cpyright
+{
+    padding:5px;
+    color: #FFE529;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+
+@media(max-width: 768px)
+{
+
+    .cabecalhoprincipal
+        {       
+            display:block;
+        }
+    .nomesite
+        {
+            text-align: center;
+            padding-block-end: 20px;
+        }
+    .menu
+        {
+            padding-bottom:8px;
+        }
+    .capafilmes li
+        {
+            display:flex;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            width: 21%;
+            padding: 10px;
+            margin: 0 auto;
+        }
+
+}
+
 
